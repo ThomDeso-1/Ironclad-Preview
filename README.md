@@ -19,7 +19,7 @@ long). GitHub Pages sends no `X-Frame-Options`, so framing works.
 - **Self-contained.** All screenshots and the key art are base64 data URIs. The
   only external request is the Google Fonts stylesheet (Big Shoulders Display /
   Inter / JetBrains Mono). Safe to drop on any static host or open with `file://`.
-  ~4 MB, so first load is a beat, then cached.
+  ~2.3 MB (WebP screenshots), so first load is a beat, then cached.
 - **Theme-aware.** Follows the visitor's light/dark preference; a corner toggle
   overrides.
 - **Not affiliated** with Hasbro / Avalon Hill / Wizards of the Coast, or with
